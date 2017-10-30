@@ -51,7 +51,8 @@ function dispatchWeaponTalents(params){
   return result;
 }
 
-
+/* Initiates all the sheets and data ranges required in getting weapon talents. 
+returns a JSON object */
 function initWeaponTalentsSheet(){
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Weapon Talents'),
       
@@ -377,7 +378,9 @@ function getWeaponModsCompat(modsRow, notes){
   return modsCompatObject;
 }
 
-
+/* returns a list of weapon mod Objects and their corresponding attributes.
+* The function filters outthe attribute columns by checking if it contains 'x' or '✓'
+ */
 function getWeaponModsVerbose(){
   var columnNames = ["Mod_Category", "name", "Primary_Attribute_UID", "Primary_Attribute", "Mod_Type", "Crit_Chance",
                      "Crit_Damage", "Headshot_Damage", "Accuracy", "Stability", "Reload_Speed", 
