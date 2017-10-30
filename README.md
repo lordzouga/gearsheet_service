@@ -25,6 +25,8 @@ The scope names are self-explanatory but for clarity:
 | ```weaponmods``` | Weapon Mods     |
 | ```exoticgears``` | Exotic pieces and their talents     |
 
+Each scope returns a list of JSON objects. Each of those object represent a row in their respective sheets and the keys correspond to the columns in the sheet.
+
 ### Deploying the code
 The code contained in **gearsheet_service.gs** should be placed in the Gear Attribute Sheet's script editor and executed in the context of the gearsheet.
 **This part of the doc needs further update**
