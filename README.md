@@ -30,3 +30,5 @@ Each scope returns a list of JSON objects. Each of those object represent a row 
 ### Deploying the code
 The code contained in **gearsheet_service.gs** should be placed in the Gear Attribute Sheet's script editor and executed in the context of the gearsheet.
 **This part of the doc needs further update**
+
+For assistance in any part of the code, join the discord https://discord.gg/jTUKJr4
