@@ -17,7 +17,7 @@ The scope names are self-explanatory but for clarity:
 
 | scope      | Description        
 | ------------- |:-------------|
-| ```wepaontalents```   | Weapon Talents|
+| ```weapontalents```   | Weapon Talents|
 | ```playertalents```     | Player Talents     |
 | ```geartalents``` | Gear Talents     |
 | ```gearsets``` | Gearsets     |
